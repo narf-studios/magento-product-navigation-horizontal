@@ -3,17 +3,20 @@ class Narfstudios_SitemapExtend_Model_Sitemap extends Mage_Sitemap_Model_Sitemap
 {
     private $urlkeys;
     
-    /**
+	/**
+	 * Returns the name of the xml file
 	 * TODO: get the value from systemconfig
 	 */
 	private function getOptimizedSitemapFilename() {
 		return 'sitemap-optimizer.xml';
 	}
 	
-	
     /**
-     * Generate XML file
-     * Returns an xml file with the urls for all categories and products.
+     * Returns an xml file with contains the urls for
+	 * - categories url
+	 * - products in categories (with the ids of products and category)
+	 * - products url
+	 * - other cms pages
 	 * This can e.g. be used to create a horizontal navigation in the product view
      * @return Mage_Sitemap_Model_Sitemap
      */
