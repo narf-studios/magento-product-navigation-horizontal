@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Narfstudios_SitemapExtend>
+            <version>0.0.1</version>
+        </Narfstudios_SitemapExtend>
+    </modules>
+    <global>
+        <models>
+            <sitemapextend>
+                <class>Narfstudios_SitemapExtend_Model</class>
+                <resourceModel>sitemapextend_mysql4</resourceModel>
+            </sitemapextend>
+            <sitemap>
+                <rewrite>
+                    <sitemap>Narfstudios_SitemapExtend_Model_Sitemap</sitemap>
+                </rewrite>
+            </sitemap>
+            <sitemapextend_mysql4>
+                <class>Mage_Sitemap_Model_Mysql4</class>
+                <entities>
+                    <sitemap>
+                        <table>sitemap</table>
+                    </sitemap>
+                </entities>
+            </sitemapextend_mysql4>
+        </models>
+    </global>
+</config>
