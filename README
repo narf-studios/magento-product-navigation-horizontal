@@ -1,0 +1,11 @@
+############################################################################
+# Magentomodule SitemapExtend form narf-studios GmbH #######################
+############################################################################
+
+This module gives you the opportunity to generate an XML file which contains
+all urls for:
+
+- categories
+- products
+- products in different categories
+- cms pages
