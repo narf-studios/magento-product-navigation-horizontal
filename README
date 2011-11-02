@@ -13,6 +13,7 @@ This will be realized over a sitemap-optimizer.xml file which contains following
 Requirements:
 - Magento 1.4.x, 1.5.x, 1.6.x
 - Mage_Sitemap module must be enabled
+- Narfstudios_Base must be installed and can be found under https://github.com/narf-studios/magento-narfstudios-base
 
 Installation:
 - Copy the folder structure into your Magento system
