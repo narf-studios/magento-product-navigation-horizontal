@@ -7,10 +7,10 @@
     </modules>
     <global>
         <models>
-            <productnavigation>
+            <ProductNavigation>
                 <class>Narfstudios_ProductNavigation_Model</class>
                 <resourceModel>ProductNavigation_mysql4</resourceModel>
-            </productnavigation>
+            </ProductNavigation>
             <sitemap>
                 <rewrite>
                     <sitemap>Narfstudios_ProductNavigation_Model_Sitemap</sitemap>
@@ -26,9 +26,9 @@
             </productnavigation_mysql4>
         </models>
         <blocks>
-        	<productnavigation>
+        	<ProductNavigation>
                 <class>Narfstudios_ProductNavigation_Block</class>
-            </productnavigation>
+            </ProductNavigation>
             <catalog>
                 <rewrite>
                     <product_view>Narfstudios_ProductNavigation_Block_Catalog_Product_View</product_view>
@@ -43,19 +43,19 @@
     </global>
  	<frontend>
         <routers>
-            <productnavigation>
+            <ProductNavigation>
                 <use>standard</use>
                 <args>
                     <module>Narfstudios_ProductNavigation</module>
-                    <frontName>ProductNavigation</frontName>
+                    <frontName>productnavigation</frontName>
                 </args>
-            </productnavigation>
+            </ProductNavigation>
         </routers>
         <layout>
             <updates>
-                <productnavigation>
-                    <file>ProductNavigation.xml</file>
-                </productnavigation>
+                <ProductNavigation>
+                    <file>productnavigation.xml</file>
+                </ProductNavigation>
             </updates>
         </layout>
         <translate>
