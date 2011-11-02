@@ -21,7 +21,7 @@ Installation:
 - Copy the folder structure into your Magento system
 - Create a sitemap folder in your Magento root directory
 - Go to Catalog/Google Sitemap in your Adminarea and generate a sitemap in the sitemap/ folder
-- Configure the templates if you want to change the loak and the position of the navigation
+- Configure the templates if you want to change the look and the position of the navigation
 
 I do not see a navigation. What can I do?
 - Check if there is a file called sitemap-optimizer.xml in your sitemap folder
