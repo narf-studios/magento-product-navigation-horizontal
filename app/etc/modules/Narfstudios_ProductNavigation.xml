@@ -7,6 +7,7 @@
             <codePool>community</codePool>
             <depends>
                 <Mage_Sitemap />
+                <Narfstudios_Base />
             </depends>
         </Narfstudios_ProductNavigation>
     </modules>
