@@ -11,7 +11,7 @@ This will be realized over a sitemap-optimizer.xml file which contains following
 - cms pages
 
 Requirements:
-- Magento 1.5.x, 1.6.x
+- Magento 1.4.x, 1.5.x, 1.6.x
 - Mage_Sitemap module must be enabled
 
 Installation:
