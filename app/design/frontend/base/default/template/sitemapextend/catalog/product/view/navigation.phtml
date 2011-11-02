@@ -1,0 +1,8 @@
+<?php $navigateProductsArray = $this->getNavigationUrls(); ?>
+<?php if(!empty($navigateProductsArray)) : ?>
+<div class="productCounterBox">
+    <?php if($navigateProductsArray[0] != '') { ?><a href="<?php echo $navigateProductsArray[0]; ?>" class="arrowBack" title="previous"><span class="hideOnLoad">&nbsp;<&nbsp;</span></a><?php } ?>
+    <?php if($navigateProductsArray['count'] > 1) { ?><span class="productCount"><?php echo $navigateProductsArray['currentPosition']; ?> von <?php echo $navigateProductsArray['count']; ?></span><?php } ?>
+    <?php if($navigateProductsArray[1] != '') { ?><a href="<?php echo $navigateProductsArray[1]; ?>" class="arrowForward" title="next"><span class="hideOnLoad">&nbsp;>&nbsp;</span></a><?php } ?>
+</div>
+<?php endif; ?>

@@ -5,6 +5,9 @@
             <version>0.1.0</version>
             <active>true</active>
             <codePool>community</codePool>
+            <depends>
+                <Mage_Sitemap />
+            </depends>
         </Narfstudios_SitemapExtend>
     </modules>
 </config>

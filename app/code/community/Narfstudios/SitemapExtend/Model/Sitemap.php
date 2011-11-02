@@ -1,4 +1,10 @@
 <?php
+/**
+ * Navigation URL model
+ *
+ * @package    Narfstudios
+ * @module     SitemapExtend
+ */
 class Narfstudios_SitemapExtend_Model_Sitemap extends Mage_Sitemap_Model_Sitemap
 {
     private $urlkeys;
@@ -7,7 +13,7 @@ class Narfstudios_SitemapExtend_Model_Sitemap extends Mage_Sitemap_Model_Sitemap
 	 * Returns the name of the xml file
 	 * TODO: get the value from systemconfig
 	 */
-	private function getOptimizedSitemapFilename() {
+	public function getOptimizedSitemapFilename() {
 		return 'sitemap-optimizer.xml';
 	}
 	
