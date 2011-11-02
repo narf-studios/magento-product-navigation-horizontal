@@ -1,17 +1,14 @@
 ############################################################################
-# Magentomodule SitemapExtend form narf-studios GmbH #######################
+# Magentomodule ProductNavigation 0.1.0 from narf-studios GmbH #############
 ############################################################################
 
-This module gives you the opportunity to generate an XML file which contains
-all urls for:
-
+This module offers a horizontal navigation in the products view to the other
+products in this category.
+This will be realized over a sitemap-optimizer.xml file which contains following urls:
 - categories
 - products
 - products in different categories
 - cms pages
-
-Furthermore it offers a horizontal navigation in the products view to the other
-products in this category.
 
 Requirements:
 - Magento 1.5.x, 1.6.x

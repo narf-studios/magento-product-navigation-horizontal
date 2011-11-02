@@ -1,9 +1,0 @@
-<?php $navigateProductsArray = $this->getNavigationUrls(); ?>
-<?php if(!empty($navigateProductsArray)) : ?>
-<span id="product-horizontal-navigation" style="float: right;">
-    <?php if($navigateProductsArray[0] != '') { ?><a href="<?php echo $navigateProductsArray[0]; ?>" title="<?php echo Mage::helper('sitemapextend')->__('previous product') ?>" style="text-decoration: none;"><span>&nbsp;<strong><</strong>&nbsp;</span></a><?php } ?>
-    <?php if($navigateProductsArray['count'] > 1) { ?><span><?php echo $navigateProductsArray['currentPosition']; ?> <?php echo Mage::helper('sitemapextend')->__('of') ?> <?php echo $navigateProductsArray['count']; ?></span><?php } ?>
-    <?php if($navigateProductsArray[1] != '') { ?><a href="<?php echo $navigateProductsArray[1]; ?>" title="<?php echo Mage::helper('sitemapextend')->__('next product') ?>" style="text-decoration: none;"><span>&nbsp;<strong>></strong>&nbsp;</span></a><?php } ?>
-</span>
-<div style="clear: both;"></div>
-<?php endif; ?>
