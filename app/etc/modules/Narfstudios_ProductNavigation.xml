@@ -2,7 +2,7 @@
 <config>
     <modules>    
         <Narfstudios_ProductNavigation>
-            <version>0.1.0</version>
+            <version>1.0</version>
             <active>true</active>
             <codePool>community</codePool>
             <depends>
